@@ -37,10 +37,10 @@ Audiobook file fields:
 
 
 #How to Run the project
-    1. Pip install django
-    2. Pip install djangorestfreamework
-    3. env\Scripts\activate 
-    4. Python manage.py runserver
+    1. env\Scripts\activate
+    2.pip install -r requirements.txt
+    3. Python manage.py migrate
+    4.python manage.py runserver
 
 # How to TEST APIS
 Test api structure is given in documentation, it is postman exported one.
